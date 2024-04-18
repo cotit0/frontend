@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo5.css">
+    <title>Formulario de Contacto</title>
+    <style>
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+        }
+
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF; 
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulario de Contacto</h1>
+
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido" required>
+
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su Email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Ingrese un Mensaje..." required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

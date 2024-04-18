@@ -1,0 +1,68 @@
+body{
+    background-image: url(https://www.fabmood.com/wp-content/uploads/2024/02/cute-wallpaper-14.jpg);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(40, 28, 0);
+    padding: 30px 60px;
+}
+
+
+nav{
+    background-color: rgb(40, 28, 0);
+    overflow: hidden;
+}
+
+nav a{
+    background-color: rgb(40, 28, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: rgb(255, 201, 138);
+    color: rgb(0, 0, 0);
+
+}
+
+main{
+    background-color: rgba(40, 28, 0, 0.438);
+    padding: 30px 20px;
+    color: aliceblue;
+}
+
+footer{
+    background-color: rgba(93, 75, 9, 0.37);
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: xx-large;
+}
+
+p{
+    font-size: large;
+}
+
+h1{
+    font-size: xx-large;
+    color: rgb(40, 28, 0);
+    
+}
